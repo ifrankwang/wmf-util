@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "com.github.ifrankwang"
-version = "1.0-SNAPSHOT"
+version = "1.0.0-SNAPSHOT"
 
 repositories {
     mavenLocal()
@@ -23,6 +23,7 @@ tasks {
     compileKotlin {
         kotlinOptions.jvmTarget = "1.8"
     }
+
     compileTestKotlin {
         kotlinOptions.jvmTarget = "1.8"
     }
